@@ -90,6 +90,7 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
+        <h2>ToDo App by Kyoya Murakami</h2>
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
