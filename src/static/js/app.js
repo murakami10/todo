@@ -2,12 +2,9 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-                    <p>ToDo App Kyoya Murakami</p>
-            <Row>           
-        <p>ToDo App Kyoya Murakami</p>
-
-        <Col md={{ offset: 3, span: 6 }}>
-                                <p>ToDo App Kyoya Murakami</p>
+            <Row>        
+                <Col md={{ offset: 3, span: 6 }}>
+                <p style="font-size: xx-large;">ToDo App Kyoya Murakami</p>
                     <TodoListCard />
                 </Col>
             </Row>
@@ -142,7 +139,6 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
 
     return (
         <Container fluid className={`item ${item.completed && 'completed'}`}>
-            <p>ToDo App Kyoya Murakami</p>
             <Row>
                 <Col xs={1} className="text-center">
                     <Button
