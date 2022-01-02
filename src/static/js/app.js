@@ -4,6 +4,7 @@ function App() {
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <h2>ToDo App Kyoya Murakami</h2>
                     <TodoListCard />
                 </Col>
             </Row>
@@ -90,7 +91,6 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
-        <h2>ToDo App by Kyoya Murakami</h2>
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
